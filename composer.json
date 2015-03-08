@@ -24,5 +24,7 @@
         "php": ">=5.4.0",
 	"symfony/framework-bundle": "~2.3",
         "toshy62/openldapobject": "~1.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
