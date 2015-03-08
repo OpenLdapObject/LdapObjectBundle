@@ -18,7 +18,11 @@ class Toshy62LdapObjectBundle extends Bundle {
 
             $client = $connect->connect();
             $client->setBaseDn($this->container->getParameter('ldap_object.base_dn'));
-            EntityManager::addEntityManager('default', $client);
+            try {
+                EntityManager::addEntityManager('default', $client);
+            } catch(Exception $e) {
+                // Nothing
+            }
         }
     }
 }
