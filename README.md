@@ -10,7 +10,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```bash
-$ composer require toshy62/ldapobjectbundle "~1"
+$ composer require openldapobject/ldapobjectbundle "~1"
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -35,7 +35,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new Toshy62\Bundle\LdapObjectBundle\Toshy62LdapObjectBundle(),
+            new OpenLdapObject\Bundle\LdapObjectBundle\Toshy62LdapObjectBundle(),
         );
 
         // ...
