@@ -1,6 +1,6 @@
 <?php
 
-namespace Toshy62\Bundle\LdapObjectBundle\DependencyInjection;
+namespace OpenLdapObject\Bundle\LdapObjectBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

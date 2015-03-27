@@ -1,6 +1,6 @@
 <?php
 
-namespace Toshy62\Bundle\LdapObjectBundle;
+namespace OpenLdapObject\Bundle\LdapObjectBundle;
 
 
 class LdapWrapper {

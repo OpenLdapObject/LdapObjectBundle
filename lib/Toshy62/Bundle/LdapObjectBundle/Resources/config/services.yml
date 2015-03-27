@@ -1,4 +1,0 @@
-services:
-    ldap_object.manager:
-        class: Toshy62\Bundle\LdapObjectBundle\LdapWrapper
-        arguments: []

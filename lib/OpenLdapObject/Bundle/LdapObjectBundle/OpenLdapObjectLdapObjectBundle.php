@@ -1,12 +1,12 @@
 <?php
 
-namespace Toshy62\Bundle\LdapObjectBundle;
+namespace OpenLdapObject\Bundle\LdapObjectBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use OpenLdapObject\LdapClient\Connection;
 use OpenLdapObject\Manager\EntityManager;
 
-class Toshy62LdapObjectBundle extends Bundle {
+class OpenLdapObjectLdapObjectBundle extends Bundle {
     public function boot() {
         parent::boot();
 

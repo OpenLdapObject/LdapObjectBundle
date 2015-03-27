@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Toshy62\\Bundle\\LdapObjectBundle\\": "lib/"
+            "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib/"
         }
     },
     "require": {

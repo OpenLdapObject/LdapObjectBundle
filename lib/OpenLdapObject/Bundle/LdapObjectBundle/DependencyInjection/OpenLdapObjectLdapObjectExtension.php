@@ -1,6 +1,6 @@
 <?php
 
-namespace Toshy62\Bundle\LdapObjectBundle\DependencyInjection;
+namespace OpenLdapObject\Bundle\LdapObjectBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -14,7 +14,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class Toshy62LdapObjectExtension extends Extension
+class OpenLdapObjectLdapObjectExtension extends Extension
 {
     /**
      * {@inheritdoc}

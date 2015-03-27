@@ -1,0 +1,4 @@
+services:
+    ldap_object.manager:
+        class: OpenLdapObject\Bundle\LdapObjectBundle\LdapWrapper
+        arguments: []
