@@ -19,7 +19,7 @@ class OpenLdapObjectLdapObjectBundle extends Bundle {
             $client = $connect->connect();
             $client->setBaseDn($this->container->getParameter('ldap_object.base_dn'));
             try {
-                EntityManager::addEntityManager('default', $client);
+                EntityManager::addEntityManager('default', $client, true);
             } catch(Exception $e) {
                 // Nothing
             }
