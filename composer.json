@@ -23,6 +23,6 @@
     "require": {
         "php": ">=5.4.0",
 	"symfony/framework-bundle": "~2.3",
-        "openldapobject/openldapobject": "1.1.0"
+        "openldapobject/openldapobject": "~1.0,>=1.1"
     }
 }
