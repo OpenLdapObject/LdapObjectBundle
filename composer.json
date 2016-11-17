@@ -1,29 +1,35 @@
 {
-    "name": "openldapobject/ldapobjectbundle",
-    "type": "library",
-    "keywords": ["openldap", "ldap", "object", "mapping", "bundle", "symfony2"],
-    "description": "Symfony2 Bundle for OpenLdapObject",
-    "homepage": "https://github.com/OpenLdapObject/LdapObjectBundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Toshy62",
-            "email": "yoshi62@live.fr"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/OpenLdapObject/LdapObjectBundle/issues",
-        "source": "https://github.com/OpenLdapObject/LdapObjectBundle"
-    },
-    "autoload": {
-        "psr-0": {
-            "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib/"
-        }
-    },
-    "require": {
-        "php": ">=5.4.0",
-	"symfony/framework-bundle": "~2.3",
-        "openldapobject/openldapobject": "~1.0,>=1.1",
-	"symfony/symfony": ">=2.8.*"
+  "name": "openldapobject/ldapobjectbundle",
+  "type": "library",
+  "keywords": [
+    "openldap",
+    "ldap",
+    "object",
+    "mapping",
+    "bundle",
+    "symfony2"
+  ],
+  "description": "Symfony2 Bundle for OpenLdapObject",
+  "homepage": "https://github.com/OpenLdapObject/LdapObjectBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Toshy62",
+      "email": "yoshi62@live.fr"
     }
+  ],
+  "support": {
+    "issues": "https://github.com/OpenLdapObject/LdapObjectBundle/issues",
+    "source": "https://github.com/OpenLdapObject/LdapObjectBundle"
+  },
+  "autoload": {
+    "psr-0": {
+      "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "symfony/symfony": ">=2.8.*",
+    "openldapobject/openldapobject": "~1.0,>=1.1",
+  }
 }
