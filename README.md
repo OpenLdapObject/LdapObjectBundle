@@ -35,7 +35,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new OpenLdapObject\Bundle\LdapObjectBundle\Toshy62LdapObjectBundle(),
+            new OpenLdapObject\Bundle\LdapObjectBundle\OpenLdapObjectLdapObjectBundle(),
         );
 
         // ...
