@@ -30,6 +30,6 @@
   "require": {
     "php": ">=5.4.0",
     "symfony/symfony": ">=2.8.*",
-    "openldapobject/openldapobject": "~1.0,>=1.1",
+    "openldapobject/openldapobject": "~1.0,>=1.1"
   }
 }
