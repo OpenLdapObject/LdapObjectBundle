@@ -27,8 +27,8 @@
     "source": "https://github.com/OpenLdapObject/LdapObjectBundle"
   },
   "autoload": {
-    "psr-0": {
-      "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib/"
+    "psr-4": {
+      "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib/OpenLdapObject\\Bundle\\LdapObjectBundle\\"
     }
   },
   "require": {
