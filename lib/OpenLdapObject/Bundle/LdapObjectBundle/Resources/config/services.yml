@@ -2,4 +2,3 @@ services:
     ldap_object.manager:
         class: OpenLdapObject\Bundle\LdapObjectBundle\LdapWrapper
         arguments: ['%ldap_object.host%', '%ldap_object.port%', '%ldap_object.base_dn%', '%ldap_object.dn%', '%ldap_object.password%']
-        public: false
