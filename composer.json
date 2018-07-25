@@ -28,7 +28,7 @@
   },
   "autoload": {
     "psr-4": {
-      "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib\\OpenLdapObject\\Bundle\\LdapObjectBundle\\"
+      "OpenLdapObject\\Bundle\\LdapObjectBundle\\": "lib/OpenLdapObject/Bundle/LdapObjectBundle/"
     }
   },
   "require": {
