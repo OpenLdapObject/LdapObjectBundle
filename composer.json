@@ -33,7 +33,7 @@
   },
   "require": {
     "php": ">=7.1.3",
-    "symfony/framework-bundle": "~4.0",
+    "symfony/framework-bundle": "~5.0",
     "openldapobject/openldapobject": "~1.0,>=1.1"
   },
   "minimum-stability": "dev",
